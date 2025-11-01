@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import Logo from './components/Logo'
 
 export default function LandingPage() {
   return (
@@ -13,9 +14,8 @@ export default function LandingPage() {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-royal-blue"
           >
-            Kayan
+            <Logo size="md" />
           </motion.div>
           <Link href="/signin">
             <motion.button

@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 export default function PortfolioPage() {
   const [copied, setCopied] = useState(false)
-  const portfolioLink = 'https://kayan.com/portfolio/user123'
+  const portfolioLink = 'https://spark.com/portfolio/user123'
 
   const completedProjects = [
     {
@@ -40,13 +40,13 @@ export default function PortfolioPage() {
       id: 1,
       name: 'Digital Marketing Fundamentals',
       date: 'January 2024',
-      issuer: 'Kayan Platform',
+      issuer: 'Spark Platform',
     },
     {
       id: 2,
       name: 'Social Media Marketing',
       date: 'December 2023',
-      issuer: 'Kayan Platform',
+      issuer: 'Spark Platform',
     },
   ]
 

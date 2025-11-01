@@ -14,7 +14,7 @@ const cairo = Cairo({
 })
 
 export const metadata = {
-  title: 'Kayan Platform - Start Your Career Journey Step by Step',
+  title: 'Spark (Sharara) Platform - Start Your Career Journey Step by Step',
   description: 'Smart Training Paths, Real-Life Practical Projects, Personalized Mentoring',
 }
 

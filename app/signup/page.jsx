@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { ArrowLeft } from 'lucide-react'
+import Logo from '../components/Logo'
 
 export default function SignUpPage() {
   const router = useRouter()
@@ -16,7 +17,7 @@ export default function SignUpPage() {
         </Link>
 
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-royal-blue mb-2">Kayan</h1>
+          <Logo size="lg" className="mb-4" />
           <p className="text-gray-600">Create your account</p>
         </div>
 

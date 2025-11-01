@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
+import Logo from '../components/Logo'
 
 export default function SignInPage() {
   const [isSignUp, setIsSignUp] = useState(false)
@@ -21,7 +22,7 @@ export default function SignInPage() {
         </Link>
 
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-royal-blue mb-2">Kayan</h1>
+          <Logo size="lg" className="mb-4" />
           <p className="text-gray-600">{isSignUp ? 'Create your account' : 'Welcome back!'}</p>
         </div>
 
