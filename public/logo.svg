@@ -1,0 +1,39 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background transparent - will use page background -->
+  
+  <!-- Flame/Leaf Graphic above rightmost part of Arabic (above the ة) -->
+  <path d="M 150 20 Q 155 15 160 22 Q 158 28 153 25 Q 150 23 150 20 Z" fill="#FFA54C"/>
+  
+  <!-- Arabic Text: شرارة -->
+  <g font-family="Tajawal, sans-serif" font-weight="700" font-size="45" text-anchor="start">
+    <!-- Shin (ش) - Royal blue -->
+    <text x="25" y="55" fill="#005B96">ش</text>
+    <!-- Three square dots above Shin -->
+    <rect x="42" y="12" width="7" height="7" fill="#005B96"/>
+    <rect x="51" y="12" width="7" height="7" fill="#005B96"/>
+    <rect x="60" y="12" width="7" height="7" fill="#005B96"/>
+    
+    <!-- Ra (ر) - Warm orange (second ra, third letter) with vertical stroke -->
+    <text x="75" y="55" fill="#FFA54C">ر</text>
+    <!-- Vertical orange stroke above ra -->
+    <rect x="92" y="30" width="4" height="20" fill="#FFA54C" rx="1"/>
+    
+    <!-- Alif (ا) - Royal blue -->
+    <text x="100" y="55" fill="#005B96">ا</text>
+    
+    <!-- Ra (ر) - Royal blue -->
+    <text x="115" y="55" fill="#005B96">ر</text>
+    
+    <!-- Ta marbuta (ة) - Royal blue -->
+    <text x="130" y="55" fill="#005B96">ة</text>
+    <!-- One square dot above Ta marbuta -->
+    <rect x="138" y="12" width="7" height="7" fill="#005B96"/>
+  </g>
+  
+  <!-- English Text: SHARARA (second A in orange) -->
+  <g font-family="Arial, sans-serif" font-weight="bold" font-size="20" letter-spacing="3px">
+    <text x="40" y="95" fill="#005B96">SH</text>
+    <text x="70" y="95" fill="#FFA54C">A</text>
+    <text x="88" y="95" fill="#005B96">RARA</text>
+  </g>
+</svg>
